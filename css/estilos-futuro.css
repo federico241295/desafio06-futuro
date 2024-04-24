@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* !Colores Retro:
+! #F2EADF = background */
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-weight: 600;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+  background-image: url(./public/imgs/fgfg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ----------------------------------------------- */
+
+.datos-personales {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  position: relative;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 10px;
+  background-image: url(/public/imgs/bicis2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenido-datos-personales {
+  display: flex;
+  position: relative;
+}
+
+.div-datos {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  font-style: normal;
+  font-size: 40px;
+  padding: 5px;
+  color: white;
+  margin-bottom: 10px;
+  width: 280px;
+  padding: 10px 5px 10px 5px;
+  position: absolute;
+  top: 1%;
+  min-width: 120px;
+}
+
+/* ----------------------------------------------- */
+
+.datos-de-contactos {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 10px;
+  background-color: black;
+  /*     border: 5px solid coral; */
+}
+
+.actividades {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 10px;
+  background-color: black;
+  /*     border: 5px solid gold; */
+}
+
+.p-actividades {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+}
+
+.div-condiciones {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 0;
+  background-color: black;
+  text-align: left;
+  color: white;
+  /*     border: 5px solid coral; */
+  position: relative;
+  bottom: 700px;
+  left: 500px;
+  width: 300px;
+}
+
+.div-datos-contacto {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  padding: 5px;
+  color: white;
+  margin-bottom: 10px;
+  width: 280px;
+  padding: 10px 5px 10px 5px;
+  position: absolute;
+  top: 1%;
+  min-width: 120px;
+}
+
+.div-actividades {
+  text-align: left;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  padding: 5px;
+  color: white;
+  margin-bottom: 10px;
+  width: 280px;
+  padding: 10px 5px 10px 5px;
+  position: relative;
+  top: 1%;
+  min-width: 120px;
+}
+
+.p-name {
+  margin-top: 150px;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 20px;
+  text-align: left;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.telefono-email {
+  margin-top: 150px;
+  text-align: left;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.name {
+  height: 30px;
+  width: 50%;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.surname {
+  height: 30px;
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.document {
+  height: 30px;
+  width: 50%;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.telefono {
+  height: 30px;
+  width: 25%;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.email {
+  height: 30px;
+  width: 25%;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.genero {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  height: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+.option {
+  height: 40px;
+  width: 50%;
+  text-align: left;
+  font-style: normal;
+  border-radius: 5px;
+}
+
+.textarea {
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 5px;
+}
+
+.lbl-actividades {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 750px;
+}
+
+.ini-afil {
+  width: 200px;
+}
+
+.img2 {
+  width: 650px;
+  position: relative;
+  bottom: 500px;
+  left: 500px;
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.img1 {
+  width: 650px;
+  position: relative;
+  bottom: 750px;
+  left: 700px;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+button {
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  float: inherit;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px 5px;
+}
